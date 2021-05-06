@@ -1,0 +1,26 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpflie.js",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-rakibul/Clock.git"
+  },
+  "author": "rakibul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-rakibul/Clock/issues"
+  },
+  "homepage": "https://github.com/dev-rakibul/Clock#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
