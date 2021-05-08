@@ -8,12 +8,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #021138; }
+  background: #03143d; }
 
 .clock {
   width: 350px;
   height: 350px;
   display: flex;
+  margin: 50px;
   justify-content: center;
   align-items: center;
   background-image: url(../image/clock.png);
@@ -79,3 +80,25 @@ body {
   background: #fff;
   z-index: 12;
   border-radius: 6px 6px 0 0; }
+
+.time ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 100px; }
+  .time ul li {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    color: red;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px; }
+
+/*media-query*/
+@media (max-width: 1080px) {
+  .map {
+    display: none; } }
