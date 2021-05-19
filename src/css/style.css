@@ -10,6 +10,13 @@ body {
   min-height: 100vh;
   background: #03143d; }
 
+.container h1 {
+  color: #ff105e;
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bold;
+  text-transform: capitalize; }
+
 .clock {
   width: 350px;
   height: 350px;
@@ -68,7 +75,7 @@ body {
   position: absolute;
   width: 4px;
   height: 90px;
-  background: #fff;
+  background: #f35757;
   z-index: 11;
   border-radius: 6px 6px 0 0; }
 
@@ -77,7 +84,7 @@ body {
   position: absolute;
   width: 2px;
   height: 150px;
-  background: #fff;
+  background: #f8709d;
   z-index: 12;
   border-radius: 6px 6px 0 0; }
 
@@ -97,6 +104,11 @@ body {
     align-items: center;
     font-size: 30px;
     border-radius: 5px; }
+
+.button-area button {
+  font-size: 40px; }
+  .button-area button i {
+    color: #ffff; }
 
 /*media-query*/
 @media (max-width: 1080px) {

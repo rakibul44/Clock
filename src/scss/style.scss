@@ -10,6 +10,15 @@ body{
     min-height: 100vh;
     background: #03143d;
 }
+.container{
+    h1{
+        color: #ff105e;
+        text-align: center;
+        padding-bottom: 50px ;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+}
 .clock{
     width: 350px;
     height: 350px;
@@ -75,7 +84,7 @@ body{
     position: absolute;
     width: 4px;
     height: 90px;
-    background: #fff;
+    background: rgb(243, 87, 87);
     z-index: 11;
     border-radius: 6px 6px 0 0;
 }
@@ -84,7 +93,7 @@ body{
     position: absolute;
     width: 2px;
     height: 150px;
-    background: #fff;
+    background:#f8709d;
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
@@ -114,6 +123,14 @@ body{
     
 }
 
+.button-area{
+    button{
+        font-size: 40px;
+       i{
+           color: #ffff;
+       }
+    }
+}
 
 
 /*media-query*/

@@ -43,3 +43,36 @@ function time() {
 
 setInterval(time, 100);
 
+
+///////
+function darkMood(){
+    const state = localStorage.getItem('mode');
+    let isDark = false;
+    if(!state) {
+        isDark = true;
+    } else if ( state == 'dark'){
+        isDark = false;
+    }else{
+        isDark =true;
+    }
+
+    if (isDark == true){
+        const body = document.getElementById('body');
+        const toggler = document.getElementById('toggler');
+        const minute = document.getElementById('mm');
+        const second = document.getElementById('sc'); 
+        body.style.backgroundColor = 'white';
+        toggler.style.color ='#000';  
+        localStorage.setItem('mode','dark');
+    }else{
+        const body = document.getElementById('body');
+        const toggler = document.getElementById('toggler');
+        const minute = document.getElementById('mm');
+        const second = document.getElementById('sc'); 
+        body.style.backgroundColor = '#000';
+        toggler.style.color ='white'; 
+        localStorage.setItem('mode','white');
+    }
+      
+}
+
