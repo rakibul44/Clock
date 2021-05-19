@@ -37,6 +37,9 @@ function time() {
     document.getElementById('second').innerHTML = sec;
     document.getElementById('meridiem').innerHTML = meridiem;
     document.getElementById('time').innerHTML= hour + ':' + minit + ':' + sec + ' ' + meridiem;
+  
 }
 
+
 setInterval(time, 100);
+
