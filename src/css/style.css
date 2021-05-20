@@ -21,7 +21,7 @@ body {
   width: 350px;
   height: 350px;
   display: flex;
-  margin: 50px;
+  margin-left: 20px;
   justify-content: center;
   align-items: center;
   background-image: url(../image/clock.png);
@@ -105,12 +105,28 @@ body {
     font-size: 30px;
     border-radius: 5px; }
 
-.button-area button {
-  font-size: 40px; }
-  .button-area button i {
-    color: #ffff; }
+.button-area {
+  padding-top: 50px;
+  text-align: center; }
+  .button-area button {
+    font-size: 40px; }
+    .button-area button i {
+      color: #ffff; }
+  .button-area h3 {
+    text-transform: uppercase;
+    color: #ff105e;
+    font-weight: bolder;
+    padding-top: 8px; }
 
 /*media-query*/
 @media (max-width: 1080px) {
   .map {
-    display: none; } }
+    display: none; }
+  .button-area {
+    padding-top: 20px; }
+  .container h1 {
+    color: #ff105e;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 30px; } }
