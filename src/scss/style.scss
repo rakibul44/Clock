@@ -23,7 +23,7 @@ body{
     width: 350px;
     height: 350px;
     display: flex;
-   margin:50px;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
    background-image: url(../image/clock.png);
@@ -124,11 +124,19 @@ body{
 }
 
 .button-area{
+    padding-top: 50px;
+    text-align: center;
     button{
         font-size: 40px;
        i{
            color: #ffff;
        }
+    }
+    h3{
+        text-transform: uppercase;
+        color: #ff105e;
+        font-weight: bolder;
+        padding-top: 8px;
     }
 }
 
@@ -137,5 +145,18 @@ body{
 @media (max-width: 1080px) {
     .map{
         display: none;
+    }
+
+    .button-area{
+        padding-top: 20px;
+    }
+    .container{
+        h1{
+            color: #ff105e;
+            text-align: center;
+            font-weight: bold;
+            text-transform: capitalize;
+            padding-top: 30px;
+        }
     }
 }
